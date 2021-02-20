@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.job {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	overflow: hidden;
+	width: 100%;
+    margin-bottom: 10px;
+}
+
+.job h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.job h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.job-preview {
+	background-color: #2A265F;
+	color: #fff;
+	padding: 30px;
+	max-width: 150px;
+}
+
+.job-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.job-btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.job-btn:hover{
+	background-color: #48265f;
+	transition: 0.5s ease;
+	color: white;
+}
+
+@media (min-width:320px) {
+	.job-info {
+		height: 260px;
+	}
+} 
+@media (min-width:801px)  {
+	.job-info {
+		height: 190px;
+	}
+}
+@media (min-width:993px) { 
+	.job-info {
+		height: 180px;
+	}
+}
